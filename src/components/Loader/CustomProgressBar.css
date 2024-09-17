@@ -1,0 +1,28 @@
+/* CustomProgressBar.css */
+
+.customProgressBar {
+  position: relative;
+  width: 50%;
+  height: 5px;
+  background-color: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 6px; 
+  align-self: flex-end;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #0e80add0, #2395dc 50%, #85b1f0 50%, #6fa6e1);
+  background-size: 200% 100%;
+  animation: wave 2s infinite;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

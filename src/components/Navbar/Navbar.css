@@ -1,0 +1,3 @@
+.colorChangedImage {
+  filter: brightness(200%) saturate(20%) grayscale(0%);
+}
